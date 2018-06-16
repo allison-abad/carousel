@@ -1,0 +1,56 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+ background-image: url(https://wallpapertag.com/wallpaper/full/a/2/1/120657-top-watercolor-background-tumblr-1920x1080-for-iphone-7.jpg);
+ width: 100%;
+ background-size: top cover;
+ }
+/*  */
+
+.wrapper{
+  text-align: center;
+
+} 
+#gallery {
+  height: 401px;
+  width: 33%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 5em;
+
+}
+button{
+  background-color: #949182;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  font-family: times;
+  border-radius: 45px;
+  margin-right: 27px;
+  margin-left: 29px;
+  margin-top: 63px;
+}
+
+@media (max-width:1024px){
+  #gallery {
+    width: 63%;
+    background-color: pink;
+  }
+}
+
+@media (max-width:768px){
+  #gallery {
+    width: 83%;
+    background-color: #d6cc73;
+  }
+}
+
+@media (max-width:350px){
+  #gallery {
+    width: 93%;
+    background-color: #8dc8f7d6;
+  }
+}
